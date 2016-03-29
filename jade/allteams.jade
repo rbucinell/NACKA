@@ -1,45 +1,46 @@
 doctype
 include ./globals.jade
 html
-    head
-        title NACKA App
-        include ./head.jade
-    body(style="background-color: #1A1B20;")
-        header
-            - var pageTitle = 'NACKA | All Teams Playing'
-            include ./nav-drawer.jade
-        main
-            .page-content.container
-                div#teamlist.collection
-        //-Scripts at the end of the body
-        include ./js-footer.jade
-        
-        script.
-            var url = "http://www.nackakickball.com/scheduler/aplsteamlist.htm";
-            $(function(){
-                // Take the provided url, and add it to a YQL query. Make sure you encode it!
-                var yql = 'https://query.yahooapis.com/v1/public/yql?q=' + 
-                        encodeURIComponent('select * from html where url="' + 
-                        url + '"') + '&format=json';
-                $.getJSON( yql, readYQL);
-                
-                function readYQL( data )
-                {
-                    var htmlbody = data.query.results.body;
-                    var listOfTeams = htmlbody.table[2].tbody.tr.td[1].ul.li;
-                    for( li in listOfTeams )
-                    {
-                        var anchor = listOfTeams[li].a;
-                        var team = new Team( anchor.content, anchor.href );
-                        
-                        console.log(team);
-                        console.log(team.Name +  ', '+ team.Color + ', '+ team.URL);
-                        
-                        var item = $("<a class=\"collection-item\"></li>").text(team.Name);
-                        item.attr('href', team.URL );
-                        //item.css('border-color', getColorByName(team.Color) );
-                        $("#teamlist").append( item );
-                    }
-                    
-                }
-            });
+	head
+		title NACKA App
+		include ./head.jade
+	body(style="background-color: #1A1B20;")
+		header
+			- var pageTitle = 'NACKA | All Teams Playing'
+			include ./nav-drawer.jade
+		main
+			.page-content.container
+				div#teamlist.collection
+		//-Scripts at the end of the body
+		include ./js-footer.jade
+		
+		script.
+			var url = "http://www.nackakickball.com/scheduler/aplsteamlist.htm";
+			$(function(){
+				// Take the provided url, and add it to a YQL query. Make sure you encode it!
+				var yql = 'https://query.yahooapis.com/v1/public/yql?q=' + 
+						encodeURIComponent('select * from html where url="' + 
+						url + '"') + '&format=json';
+				$.getJSON( yql, readYQL);
+				
+				function readYQL( data )
+				{
+					var htmlbody = data.query.results.body;
+					var listOfTeams = htmlbody.table[2].tbody.tr.td[1].ul.li;
+					for( li in listOfTeams )
+					{						
+						var anchor = listOfTeams[li].a;	
+												
+						var tName 	= Team.ExtractNameFromRaw( anchor.content );
+						var tColor	= Team.ExtractColorFromRaw( anchor.content );
+					
+						var team = new Team( tName, tColor, anchor.href );
+												
+						var item = $("<a class=\"collection-item\"></a>").text(team.Name);
+						item.attr('href', team.URL );
+						
+						$("#teamlist").append( item );
+					}
+					
+				}
+			});
