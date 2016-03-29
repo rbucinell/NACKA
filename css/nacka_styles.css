@@ -41,3 +41,7 @@ nav
 {
     font-weight: bold;
 }
+
+.collection a.collection-item {
+    color: #d32f2f;
+}
