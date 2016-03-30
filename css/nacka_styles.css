@@ -45,3 +45,47 @@ nav
 .collection a.collection-item {
     color: #d32f2f;
 }
+
+.rainbowbg {
+    background: red; /* not working, let's see some red */
+    background: -moz-linear-gradient( top ,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 255, 0, 1) 15%,
+        rgba(0, 255, 0, 1) 30%,
+        rgba(0, 255, 255, 1) 50%,
+        rgba(0, 0, 255, 1) 65%,
+        rgba(255, 0, 255, 1) 80%,
+        rgba(255, 0, 0, 1) 100%);
+    background: -webkit-gradient(linear,  left top,  left bottom,
+        color-stop(0%, rgba(255, 0, 0, 1)),
+        color-stop(15%, rgba(255, 255, 0, 1)),
+        color-stop(30%, rgba(0, 255, 0, 1)),
+        color-stop(50%, rgba(0, 255, 255, 1)),
+        color-stop(65%, rgba(0, 0, 255, 1)),
+        color-stop(80%, rgba(255, 0, 255, 1)),
+        color-stop(100%, rgba(255, 0, 0, 1)));
+}
+
+#teamNameTitle {
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-weight: 800;
+}
+
+#teamBanner > .card-content > span.badge div.chip
+{
+    border: 1px solid white;
+    font-weight: 800;
+}
+
+.secondary-content .field-avatar {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    right: 1px;
+    display: inline-block;
+    vertical-align: middle;
+}
