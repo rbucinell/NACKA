@@ -99,19 +99,19 @@ Colors.YELLOW_HAZE         = "#ebc56e";
 
 Colors.GetColorByName = function( name )
 {
-	if( name == null || name === 'undefined')
+	if( name === null || name === 'undefined')
 	{
 		return "name";
 	}
-	else if( name == "RAINBOW" )
+	else if( name === "RAINBOW" )
 	{
 		return name;
 	}
 	var color = name.toUpperCase().replaceAll(' ', '_' );
 
-	if( Colors[color] == null || Colors[color] === 'undefined' )
+	if( Colors[color] === null || Colors[color] === 'undefined' )
 	{
 		return "UNKOWN";
 	}
 	return Colors[color];
-}
+};
