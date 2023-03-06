@@ -1,7 +1,6 @@
 # NACKA
-Mobile friendly web-app for nackakickball.com
 
-**jade files**
+NACKA is no more. c'est la vie. This repo is now an archive of all projects reated to work I did while it was a thing.
 
-The jade files are stored in their own directory however when compiled they need to be compiled to the root folder
-e.g.( jade -o .. index.jade )
+## mobile-web
+A project to convert the app to a webpage that was mobile friendly.
