@@ -8,3 +8,7 @@ The actual android app that started all of this.
 
 ## mobile-web
 A project to convert the app to a webpage that was mobile friendly.
+
+
+## design 
+Design work for al lthe assets
