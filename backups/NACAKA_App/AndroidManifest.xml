@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nacka_kickball"
+    android:versionCode="6"
+    android:versionName="1.0.2" >
+
+    <!-- Increment versionCode when releasing to public -->
+    <!-- v2 = 04/10/2014 -->
+    <!-- v3 = 05/14/2014 -->
+    <!-- v4 = 06/05/2014 -->
+    <!-- v5 = 08/17/2014 -->
+    <!-- v6 = 10/09/2014 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:description="@string/app_description"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@+integer/google_play_services_version" />
+
+        <activity
+            android:name="com.nacka_kickball.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"
+			android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.nacka_kickball.MainMenuActivity"
+            android:enabled="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nacka_kickball.AllTeams"
+            android:label="@string/title_activity_all_teams"
+            android:parentActivityName="com.nacka_kickball.MainMenuActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="com.nacka_kickball.TeamScheduleActivity"
+            android:label="@string/title_activity_team_schedule"
+            android:parentActivityName="com.nacka_kickball.ListAllTeamsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.FullscreenActivity" />
+        </activity>
+        <activity
+            android:name="com.nacka_kickball.RulesActivity"
+            android:label="@string/title_activity_rules"
+            android:parentActivityName="com.nacka_kickball.MainMenuActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="com.nacka_kickball.FieldsActivity"
+            android:label="@string/title_activity_fields"
+            android:parentActivityName="com.nacka_kickball.MainMenuActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="com.nacka_kickball.StandingsListActivity"
+            android:label="@string/title_activity_standings_list"
+            android:parentActivityName="com.nacka_kickball.MainMenuActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="com.nacka_kickball.AnnouncementsActivity"
+            android:label="@string/title_activity_announcements"
+            android:parentActivityName="com.nacka_kickball.MainMenuActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="com.nacka_kickball.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.nacka_kickball.MainMenuActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        
+    </application>
+
+</manifest>

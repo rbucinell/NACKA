@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".AnnouncementsActivity" >
+
+    <!-- Upcoming Events Section -->
+
+    <LinearLayout
+        android:id="@+id/upcoming_events_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:gravity="top"
+        android:minHeight="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/upcoming_events_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/SPORT_GREY"
+            android:text="@string/upcoming_events_string"
+            android:textColor="@color/WHITE" />
+
+        <ListView
+            android:id="@+id/upcoming_events_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/nacka_gray_bg" >
+
+        </ListView>
+
+    </LinearLayout>
+	
+    <!-- NACKA News Section -->
+    <LinearLayout
+        android:id="@+id/news_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/news_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/SPORT_GREY"
+            android:text="@string/news_tv_string"
+            android:textColor="@color/WHITE" />
+
+        <ListView
+            android:id="@+id/news_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/nacka_gray_bg"
+            android:divider="@color/ANTIQUE_CHERRY_RED"
+            android:dividerHeight="3dp"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true" >
+
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

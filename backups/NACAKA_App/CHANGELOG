@@ -1,0 +1,33 @@
+-=CHANGELOG=-
+------------------------------------------------
+version:	v 1.0.2
+date:		10/09/2014
+changes:
+- New Assets: Added Hollow templates
+- Added support for many new NACKA colors
+- Reworked how thsirt images are created, this will remove the need for more and more assets
+
+------------------------------------------------
+version:	v 1.0.1
+date:		8/17/2014
+changes:
+- Bug Fix: Nacka Website changed layouts, this broke NACKA News option. Should be fixed now
+- New Assets: Added Safety Pink, Safety Green, & Safety Pink t-shirts
+- Moved version out of beta, app has been stable for a while.
+
+------------------------------------------------
+version:	v0.4.3b
+date:		6/5/2014
+changes:
+- Bug Fix: Teams with no shirt color, or typo's with the parentheses were crashing app. Should be fixed
+- Bug Fix: Scrolling while on a teams schedule would crash list. Not any more, enjoy looking at the entire season
+- Feature: Support for Saftey Green and Saftey Pink have been added. Assets will be in next version.
+
+------------------------------------------------
+version:	v0.4.2b
+date:		5/14/2014
+changes:
+-Feature: Added Rainbow shirt color
+-Feature: Added Splash Screen
+-Performance: Rerouted some code to download news. Only once while app is running!
+-This document was finaly created

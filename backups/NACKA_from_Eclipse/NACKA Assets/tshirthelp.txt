@@ -1,0 +1,9 @@
+![Description of issue][1]
+  
+I'm currently working a small app that will display when teams play each other in a league. Since each team has a unique jersey color it is more prevalent to reference teams by their color. Currently I am following a tutorial ([Customizing Android ListView Items with Custom ArrayAdapter][2]) to get each ListItem on the screen, which is working for a static image. 
+However, there are about 26 shirts that might change, and I don't want to have to create all the separate icons. So I'm looking for a way to change the shirt color programatically. 
+
+I would like to k
+
+  [1]: http://i.stack.imgur.com/Adxq9.png
+  [2]: http://www.ezzylearning.com/tutorial.aspx?tid=1763429

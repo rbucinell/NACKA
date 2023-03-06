@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+   	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@color/nacka_gray_bg"
+    	android:fillViewport="true"
+    	android:layout_weight="1"
+    	 >
+    	
+	    <com.nacka_kickball.HtmlTextView
+	        android:id="@+id/rules_text_view"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/WHITE"
+	        android:linksClickable="true"
+	        android:scrollbars = "vertical"
+	        android:text="@string/rules_description"
+	        android:textColor="@color/BLACK" />
+	</ScrollView>
+	<!-- 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/rules_description" />
+ 	-->
+    <TextView
+        android:id="@+id/news_item_content_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/nacka_gray_bg"
+        android:gravity="center"
+        android:scrollHorizontally="false"
+        android:text="@string/download_detailed_rules"
+    	android:paddingTop="5dp"
+    	android:paddingBottom="2dp"
+        android:textColor="@color/WHITE" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/nacka_gray_bg"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/social_rule_dl_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/social_inter_btn_text"
+            android:textColor="@color/WHITE" />
+
+        <Button
+            android:id="@+id/competitive_rule_dl_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/competitive_btn_text"
+            android:textColor="@color/ANTIQUE_CHERRY_RED" />
+
+    </LinearLayout>
+
+</LinearLayout>
