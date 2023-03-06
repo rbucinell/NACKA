@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Schedules">
+        <menu>
+            <item android:id="@+id/nav_myteam"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="My Teams" />
+
+            <item android:id="@+id/nav_allteams"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="All Teams" />
+
+            <item android:id="@+id/nav_tonight"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Tonight's Schedule" />
+
+            <item android:id="@+id/nav_standings"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Current Standings" />
+        </menu>
+    </item>
+
+    <item android:title="Media">
+        <menu>
+            <item android:id="@+id/nav_media_articles"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="My Teams" />
+
+            <item android:id="@+id/nav_media_photos"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="All Teams" />
+
+            <item android:id="@+id/nav_media_videos"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Tonight's Schedule" />
+
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fields"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Fields" />
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Rules" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="About" />
+    </group>
+
+</menu>

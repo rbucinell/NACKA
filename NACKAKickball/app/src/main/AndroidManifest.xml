@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.rbucinell.nacka_kickball"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".TestWebViewActivity"
+                  android:parentActivityName=".MainMenuActivity"
+                  android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:parentActivityName=".MainMenuActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity"/>
+        </activity>
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".AllTeams"
+            android:label="@string/title_activity_all_teams"
+            android:parentActivityName=".MainMenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity"/>
+        </activity>
+        <activity
+            android:name=".TeamScheduleActivity"
+            android:label="@string/title_activity_team_schedule"
+            android:parentActivityName=".ListAllTeamsActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity"/>
+        </activity>
+        <activity
+            android:name=".RulesActivity"
+            android:label="@string/title_activity_rules"
+            android:parentActivityName=".MainMenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity"/>
+        </activity>
+        <activity
+            android:name=".FieldsActivity"
+            android:label="@string/title_activity_fields"
+            android:parentActivityName=".MainMenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity"/>
+        </activity>
+        <activity
+            android:name=".StandingsListActivity"
+            android:label="@string/title_activity_standings_list"
+            android:parentActivityName=".MainMenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity"/>
+        </activity>
+        <activity
+            android:name=".AnnouncementsActivity"
+            android:label="@string/title_activity_announcements"
+            android:parentActivityName=".MainMenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity"/>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainMenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nacka_kickball.MainMenuActivity"/>
+        </activity>
+    </application>
+
+</manifest>

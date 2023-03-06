@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nacka_gray_bg"
+    android:orientation="vertical"
+    tools:context=".FieldsActivity" >
+
+    <TextView
+        android:id="@+id/pick_team_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical|fill_vertical|center_horizontal"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:minHeight="10dp"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingBottom="16dp"
+        android:text="@string/sahlen_stadium"
+        android:textColor="@color/white_bg"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageMap"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:baselineAlignBottom="false"
+        android:contentDescription="@+string/image_of_fields"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sahlen_stadium" />
+
+    <Button
+        android:id="@+id/mapsButton"
+        android:onClick="onMapsButtonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_weight="1"
+        android:text="@string/get_directions"
+        android:textColor="@color/white_bg" />
+
+</LinearLayout>

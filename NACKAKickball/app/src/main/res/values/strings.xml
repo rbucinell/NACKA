@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">NACKA Kickball</string>
+    <string name="action_settings">Settings</string>
+    <string name="pick_a_team_from_list">Pick a team to see their schedule</string>
+    <string name="title_activity_team_schedule">Team\'s Schedule</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="joes_team_name_indicator">Hornballs</string>
+    <string name="team_element_exta">team_element_exta</string>
+    <string name="fieldIconDesc">Image of the field to play on</string>
+    <string name="awaiting_results">Awaiting results of match&#8230;</string>
+    <string name="kickball_image_desc">Generic kickball image</string>
+    <string name="saved_my_team">Saved_Team</string>
+    <string name="title_activity_main_menu">NACKA Main Menu</string>
+    <string name="app_description">This app helps NACKA players track their team\'s schedule for the current season</string>
+    <string name="title_activity_rules">NACKA Rules</string>
+    <string name="social_inter_btn_text">Social / Int.</string>
+    <string name="competitive_btn_text">Competitive</string>
+    <string name="download_detailed_rules">Download Detailed Competetive Rules</string>
+    <string name="select_day_standings">Select a day to see the standings</string>
+
+    <string name="title_activity_fields">Kickball Fields</string>
+    <string name="title_activity_standings_list">Current Standings</string>
+    <string name="title_activity_all_teams">All teams this season</string>
+    <string name="sahlen_stadium">Sahlen\'s Stadium</string>
+    <string name="long_click_register">Long click on a team to register it!</string>
+    <string name="get_directions">Get Directions</string>
+    <string name="image_of_fields">Image of fields</string>
+    <string name="title_activity_announcements">NACKA News and Events</string>
+    <string name="upcoming_events_string">Upcoming Events</string>
+    <string name="news_tv_string">NACKA News</string>
+    <string name="news_item_iv_desc">Associated Image with the news item</string>
+    <string name="news_item_tv_title_text">Title Placeholder</string>
+    <string name="news_item_tv_content_text">News Content Description</string>
+    <string name="title_activity_about">About</string>
+    <string name="about_activity_description">"This app was created to give a a more streamlined and simple set of information that is located on nackakickball.com. This app is not affiliated in any way with the NACKA Kickball league, I am merely a fan. The data is driven from the official website, therefore I assume no resposniblilty on the content nor accuracy of the information. Use at your own risk."</string>
+    <string name="appreciation_text">Thank you for trying my app! If you have any comments, questions or suggestions. Please feel free to leave a comment on the Play store, email me (rbucinell.dev@gmail.com), or find me on the fields! </string>
+    <string name="app_version">App Version: Unknown</string>
+    <string name="ty_joe">Special thanks to Joseph Cavalieri for the original idea</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="splash_image_description">Splash Image of App</string>
+	<string name="rules_description">
+<![CDATA[
+	   <p>
+	   <b><u>PLAYING FIELD</u></b><br><br>
+			The Kickball diamond is a square with equal sides of 60 feet or about 20 paces.\u00A0 The distance from home plate to second base and from first base to third base is 85 feet or about 28 paces.<br><br>
+			The pitching rubber is in the center of the diamond,\u00A042 feet or about 14 paces from home plate, which is directly between first and third base.<br><br>
+			The edge of the playing field is about\u00A030 feet from the foul lines and behind home plate.\u00A0 In cases where there are field signs at Sahlen’s Stadium, a ball travelling over a field sign is considered out of play.\u00A0 In cases where there are not field signs but a wall separating the stands and the turf at Sahlen’s Stadium, a ball travelling over the wall is considered out of play.\u00A0 Also, a ball touching a player on the sidelines or a player in another field is considered an overthrow.<br><br>
+			Markers are located 42 feet or about 14 paces between home plate and first/third base on the foul lines.<br><br><br>
+		<b><u>EQUIPMENT</u></b><br><br>
+			Sneakers are sufficient, Turf Shoes are encouraged, cleats are allowed but metal spikes are prohibited.\u00A0 Playing barefoot or in flip flops is PROHIBITED.<br><br>
+			Official NACKA Kickball shirts of the appropriate team color are required unless both captains and umpire agree to otherwise.<br><br>
+			The uniform is an extension of the player.<br><br><br>
+		<b><u>TEAM REQUIREMENTS</u></b><br>		<br>
+			Teams shall consist of a maximum of 10 players in the field.\u00A0<br><br>
+			You must have at least 4 females to play the maximum 10 players, at least 3 females to play 9 players and at least 2 females to play 8, 7 or 6 players in the field at one time.\u00A0\u00A0 If your team does not have 6 players consisting of at least 2 females 15 minutes after the start of the game as determined by the schedule must forfeit the game.<br><br>
+			There is no maximum amount of players on your team roster.\u00A0 Every participating player has to be a part of the kicking order but not everyone has to play the field.<br><br><br>
+		<b><u>PLAYER REQUIREMENTS</u></b><br><br>
+			Each player must be 21 years or older.<br><br>
+			Every player (subs included) must have electronically accepted a NACKA Athletic Waiver and Release of Liability.<br><br>
+			Blatant intoxication, unsportsmanlike conduct (such as heckling) and/or any other offensive gestures and/or act between players, teams and/or directed at the umpire themselves may result in disciplinary actions up to and including permanent expulsion from NACKA Kickball.\u00A0 The progressive discipline is as follows:<br>\u00A0
+
+			<br><br>
+			<u>Strike One</u><br>
+			&#8226;First Offense – Immediate Warning<br>
+			&#8226;Second Offense Same Night – Ejection From Game<br>
+			<br>
+			<u>Strike Two</u><br>
+			&#8226;First Offense – Immediate Warning<br>
+			&#8226;Second Offense Same Night – Ejection From Game Followed by One Game Suspension<br>
+			<br>
+			<u>Strike Three</u><br>
+			&#8226;First Offense – Immediate Warning<br>
+			&#8226;Second Offense Same Night – Ejection From Game Followed by Expulsion From Season<br>
+			<br>
+
+			Intentionally distracting the fielding team with noises or any other method to make it harder for them to make a play will result in immediate ejection of the player(s) trying to distract.<br><br>
+			Physically threatening players and/or umpires will result in immediate suspension or expulsion from the season.  Expulsion from two NACKA Kickball seasons will result in PERMANENT expulsion from NACKA Kickball.<br><br>
+			If a player is ejected from a game, they may not reenter the game nor play any other games the rest of the night.<br><br>
+			A player must be able to kick and run for them self to play a game.  If they are unable to do either, they are not permitted to play.  If a pulled from a game due to injury, they may not reenter the game nor play any other games the rest of the night.<br><br>
+			<br>
+		<b><u>SUBSTITUTE PLAYERS</u></b><br><br>
+			Team Captains are required to add substitute players to their team list on the NACKA Kickball website (www.nackakickball.com) BEFORE their game so they are able to include the substitute player in the lineup handed into the umpire.  If a substitute player is not on the game lineup sheet generated by the NACKA Kickball website, the other team and umpire must agree to allow the substitute player to participate in the game.  Furthermore, a substitute player that plays on another team on the same night is prohibited UNLESS the team trying to use the substitute player does not have the full allotment of 6 males and/or 4 females allowed in the field AND the substitute player does not play in the same skill level on the same night.<br><br>
+			<br>
+		<b><u>GAME PARAMETERS</u></b><br><br>
+			Games are 7 innings but may be called due to time constraints or weather.<br><br>
+			Games are considered official after 5 innings (4 ½ if the home team leads.)<br><br>
+			There is a 10 run mercy rule enforced after 5 innings or any inning thereafter ( bottom of the 4th if the home team leads.)<br><br>
+			As many extra innings as needed (if necessary) will take place time or weather permitting. Regular season games may end in a tie.<br><br>
+			<br>
+		<b><u>PITCHING</u></b><br>
+			<br>
+			Pitching must be underhand only.<br><br>
+			Pitchers must pitch from the pitching rubber.  Both heels must start on the rubber and the heel of the pitcher’s plant foot must be in contact with the pitching rubber during release of the ball.<br><br>
+			A strike is defined as any ball that rolls over any part of the plate without bouncing from halfway to plate until the plate and/or any foul/dead ball.<br><br>
+			A kicker may strike out by accumulating any combination of 3 strikes but walks are not issued.<br><br>
+			Pitching that is slow and easy to kick for all skill levels is required.  Competitive pitching is not allowed.<br><br>
+			If a pitcher habitually cannot throw a strike and/or pitches too competitively, the umpire may require the pitcher to be replaced resulting in the pitcher being forbidden from pitching for the rest of the game.<br><br>
+			<br>
+		<b><u>FIELDING</u></b><br><br>
+			There always must be a catcher.<br><br>
+			Fielders must use the primary first base.  Failure to do so while impeding the ability of the baserunner to run through the safety base will result in the baserunner being automatically safe.<br><br>
+			Fielders are not allowed to play closer than 42 feet to home plate before the ball is kicked (markers referenced in PLAYING FIELD Section.)  Pitchers are allowed one follow through step in front of the pitching rubber.<br><br>
+			There is no infield fly rule (pop fly in the infield with runners on first and second or bases loaded).  However, if the umpire determines a ball was dropped intentionally to obtain additional outs no matter how many baserunners, the play will be stopped, all baserunners will be safe and the kicker will be awarded first base.<br><br>
+			<br>
+		<b><u>KICKING</u></b><br><br>
+			A foul ball or dead ball counts as a strike whether it is the first, second or third strike.<br><br>
+			All kicks must be made by the foot/shin/knee.  A kick made above the knee will be a dead ball.<br><br>
+			A kicked ball that comes in contact with the kicker more than once during their kicking motion is a dead ball.<br><br>
+			A kicked ball that is determined to be a bunt (males only) by the umpire (based on intent and force of the kick) is a dead ball.  Females are allowed to bunt.<br><br>
+			A kicker’s plant foot may be in front of home plate (the front of home plate extends left or right) when kicking (i.e. the kicker is allowed one stride in front of the plate no matter how large the stride is.)  If they take an additional step in front of home plate, the kick will be a dead ball unless the ball is caught in the air resulting in an out.<br><br>
+			A foul ball is defined as:<br>
+			&#8226;A ball that has stopped in foul territory before first or third base.<br>
+			&#8226;A ball that lands in foul territory past first or third base.<br>
+			&#8226;A ball that rolls past first or third in foul territory where no part of the ball rolls over any part of the first or third base.<br>
+			&#8226;A ball that is touched by a player while the ball is in foul territory before first or third base.<br>
+			The umpire will not call a ball foul until one of the criteria above is met.<br><br>
+			Any kicked ball that hits a soccer goal at Sahlen’s Stadium in the air is considered a dead ball and will count as a strike.  Any kicked fair ball that travels into a soccer goal after landing on the ground first without being touched by a fielder or intentionally sent into the goal by a fielder will be considered a ground rule double.<br><br>
+			A kicked ball in fair territory must travel 42 feet from home plate (markers referenced in PLAYING FIELD Section) unless a fielder touches the ball before it stops rolling.  If an untouched ball stops rolling in fair territory and travels less than 42 feet from home plate (as determined by the umpire), it is a dead ball.<br><br>
+			No more than 3 males may kick in a row.<br><br>
+			The kicking order cannot change once the game has begun.  Any late arrivals are welcome but must be added to the end of the lineup.  In the event that adding a male to the end of the lineup creates 4+ men in a row, the umpire will insert the male in the last spot possible in the lineup.<br><br>
+			<br>
+		<b><u>BASERUNNING</u></b><br><br>
+			Baserunners must stay within the base line and are responsible for avoiding collisions with fielders.<br><br>
+			Ties are awarded to the baserunner.<br><br>
+			Baserunners must use the safety base if they are overrunning/sliding into first base only.  Failure to do so will result in the baserunner being called out.<br><br>
+			If a baserunner makes an attempt towards second base before returning to first base, they will be called out if they are touched with the ball before reaching first base.<br><br>
+			If a baserunner leaves their respective base before the ball is kicked, they will be called out.<br><br>
+			Tagging up on a caught ball in fair or foul territory is encouraged.  If a baserunner does not tag up properly, the baserunner will be called out once the play is over.  Baserunners are allowed to tag up when a caught ball first touches any member of the fielding team.<br><br>
+			If a baserunner is hit with a ball above the shoulder, the ball will be called dead.  The baserunner will then be called safe and will be awarded 1 extra base except if the baserunner intentionally uses his/her head to block the ball and/or the baserunner is ducking, diving and/or sliding (i.e. attempting to dodge the ball and/or tag) and is hit in the head.  Hair is considered part of the head provided the hair is hit above the shoulders.  Other baserunners are permitted to advance to the base they were running to but will not receive an additional base unless forced by the advancement of the baserunner hit with the ball.<br><br>
+			A play is considered over when the baserunner(s) are not making an explicit attempt to advance (not just hovering off a base) AND the defense has called time within the infield, the infield throws the ball to the pitcher (must be within the viscinity of the pitching rubber) or the pitcher has possession of a  ball thrown from the outfield (within the vicinity of the pitching rubber) while not trying to trying to obtain an out.  Thus, when the defense asks for time within the infield (inside the baselines) and time is granted, they are forfeiting their right to obtain an out; however, the baserunner(s) also lose their opportunity to advance.  If the baserunner(s) were advancing when time was granted, they are allowed to proceed to the base they were advancing to and must stop there, but the fielding team does not have the opportunity to obtain an out.  The baserunner(s) can advance at their own peril if time has not been granted.<br><br>
+			Baserunners advance one base if the ball travels out of play on an overthrow.  Advancing one base is defined as the base they are running to if they were less than three-quarters of the way or the base they were running to plus an additional base if they were three-quarters of the way or closer.  If they are on a base when the overthrow that travels out of play occurs, they may advance to the next base.<br><br>
+			If a live ball touches a baserunner in fair territory while they are off a base, they are out. <br><br>
+			If a baserunner is touched by a kicked ball by the kicker in foul territory, it is a dead ball and they must go back to the base they were previously on. <br><br>
+			If a baserunner is out if they are touched by a ball in fair or foul territory in which a fielder was trying to get them out.<br><br>
+			Once a kicked ball has landed on the ground, a baserunner is no longer entitled to the base they started on if they are being forced by another baserunner.<br><br>
+			If a base moves excessively (umpire discretion) from its position, the play is dead and the runners may not advance.<br><br>
+			If any player on the sidelines (including basecoaches) enters the field of play during active game play, the lead base runner will automatically be called out.  If any player on the sidelines (including basecoaches) touches a baserunner before time is granted or the play is dead, the baserunner is immediately out.<br><br>
+			<br>
+		<b><u>OTHER MISCELLANEOUS RULES</u></b><br>
+			<br>
+			There is NO drinking and NO smoking on the field of play.  Drinks must remain behind the field signs or as close to the stands as possible if no field signs are present.  Smoking is permitted in designated areas but is absolutely prohibited anywhere on the artificial turf.<br><br>
+			No outside alcoholic beverages are allowed to be brought into Sahlen’s Stadium.<br><br>
+			No glass is permitted in Sahlen’s Stadium.<br><br>
+			Please dispose of your empty beverage containers in the provided receptacles.<br><br>
+			Teams must remain behind the field signs or as close to the stands as possible if no field signs are present when they are not kicking, base coaching or playing the field.<br><br>
+			Pets are not allowed in Sahlen’s Stadium.<br><br>
+			Sunflower seeds, gum and food is not allowed on the field at Sahlen’s Stadium.<br><br>
+			Entering any Sahlen’s Stadium Vendor’s area is strictly prohibited.<br><br>
+			Please drink responsibly.<br><br>
+			<br>
+		<b><u>SEVERE WEATHER</u></b><br>
+			<br>
+			Kickball games will be played in all weather conditions except for Thunder/Lightning or when travel to Sahlen’s Stadium would be unsafe.  Storms tend to pass quickly so please do not assume games will be cancelled due to a storm.  Please check the following regularly during severe weather on game cancellations:<br><br>
+			Twitter:  www.twitter.com/NACKA_Kickball<br>
+			Facebook:  www.facebook.com/nackakickball<br>
+			Website:  www.nackakickball.com<br>
+			Phone:  (585) 789-1449 – Dave Hofstetter<br>
+		</p>]]>
+    </string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_fullscreen_web_view">FullscreenWebViewActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
